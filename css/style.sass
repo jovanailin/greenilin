@@ -1,0 +1,210 @@
+@include media-breakpoint-up(sm) {
+    #home-text {
+        background-color: rgba(0, 0, 0, 0.6);
+
+    }
+     .my-navlist {
+        display: flex;
+        justify-content: flex-start;
+
+
+    }
+
+    .my-navitem {
+        background-color: #204F42;
+        padding: 10px;
+    }
+
+   
+
+}
+
+
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) {
+    .my-navlist {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+
+.wrapper {
+
+    margin: 0;
+    padding: 0;
+}
+
+.mynavbar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    position: sticky;
+    transition: 1s;
+
+}
+
+.mybrand {
+
+
+    margin-left: 125px;
+    margin-right: 50px;
+}
+
+
+
+
+
+#home {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+#about-img {
+    background-image: url("../img/asparagus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    text-decoration: underline;
+    color: white;
+}
+
+#about {
+    height: 100vh;
+}
+
+.nav-scroll {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    background-color: #204F42;
+    position: sticky;
+    height: 60px;
+    transition: 1s;
+}
+
+#logo {
+    height: 60px;
+}
+
+
+#home-row {
+    height: 90%
+}
+
+.home-col {
+    font-family: 'Merriweather', serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#home-text {
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#home-arrow {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    height: 10%;
+}
+
+.contentDiv {
+    position: relative;
+}
+
+@keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+#arrow {
+    animation: bouncing 2s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+
+}
+
+
+#about {
+
+
+    font-family: 'Merriweather', serif;
+}
+
+#cooking {
+    height: 100vh;
+
+}
+
+
+
+.row {
+    height: 33%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}

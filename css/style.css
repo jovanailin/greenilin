@@ -1,0 +1,257 @@
+@media only screen and (min-width: 992px) {
+    .my-navlist {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+
+}
+
+.bg-img {
+    background-image: url("../img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+span {
+    color: white;
+}
+
+
+#mynavbar {}
+
+.mynavbar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    position: sticky;
+    transition: 1s;
+
+}
+
+
+.mybrand {
+    margin-left: 125px;
+    margin-right: 50px;
+}
+
+#home {
+    display: flex;
+    height: 100vh;
+    background-image: url("../img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+#about-img {
+    background-image: url("../img/asparagus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.active {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.nav-scroll {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    background-color: #204F42;
+    position: sticky;
+    height: 60px;
+    transition: 1s;
+}
+
+#logo {
+    height: 60px;
+}
+
+#home-row {
+    height: 90%
+}
+
+.home-col {
+    font-family: 'Merriweather', serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#home-text {
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#home-arrow {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    height: 10%;
+}
+
+.contentDiv {
+    position: relative;
+}
+
+@keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+#arrow {
+    animation: bouncing 2s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+    background: none;
+}
+
+#about {
+    font-family: 'Merriweather', serif;
+    background-color: white;
+}
+
+#cooking,
+#wheretobuy,
+#contact {
+    background-color: #3B302C;
+    color: white;
+}
+
+#recipes {
+    font-family: 'Merriweather', serif;
+    background-color: white;
+}
+
+
+.cooking-card {
+    background-color: #3B302C;
+    color: white;
+    border: none;
+}
+
+.cooking-text {
+    font-size: 20px;
+}
+
+.section {
+
+
+    width: 100%;
+    background-color: white;
+}
+
+.about-link {
+    background-color: #03B200;
+}
+
+.about-img:hover,
+.recipe-img:hover {
+    opacity: 0.5;
+}
+
+#recipe-img {
+    height: 150px;
+    background-image: url("../img/cooking5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe-img {
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-card {
+    background-color: #03B200;
+}
+
+.recipe-text {
+    background-color: #03B200;
+    color: white;
+}
+
+.recipe-row {
+    margin-top: 100px;
+}
+
+#wheretobuy {
+    font-size: 16px;
+}
+
+#contact {
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 992px) {
+    #home-text {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .my-navlist {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .my-navitem {
+        background-color: #204F42;
+        padding: 10px;
+    }
+
+
+}
