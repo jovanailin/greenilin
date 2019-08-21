@@ -1,4 +1,5 @@
 # greenilin
 Landing Page
 
-Landing Page created with Bootstrap 4, JQuery and Animte.css
+Landing Page created with Bootstrap 4, JQuery and Animate.css
+[Click here](https://jovanailin.github.io/greenilin/) to visit the webpage!
